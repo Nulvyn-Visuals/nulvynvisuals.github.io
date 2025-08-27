@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nulvyn Visuals</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f7f7f7;
+      color: #111;
+    }
+    header {
+      background: black;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+    }
+    header a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+    .hero {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 5px;
+    }
+    .hero img {
+      width: 100%;
+      height: auto;
+    }
+    .hero-text {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+    section {
+      padding: 60px 10%;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    }
+    .service {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .service img {
+      width: 100%;
+      border-radius: 12px;
+    }
+    .contact-form {
+      max-width: 600px;
+      margin: auto;
+    }
+    .contact-form input, 
+    .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    .contact-form button {
+      padding: 12px 24px;
+      background: black;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    footer {
+      background: #f0f0f0;
+      padding: 20px 10%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>Nulvyn Visuals</h2>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+    </nav>
+  </header>
+
+    <!-- The Why's SECTION -->
+    <section id="The Why's">
+    <h2>The Why's</h2>
+    <p>Hi, my name is Kuba Kieca. I’m a 2D/3D artist, programmer, and problem solver with a passion for creativity and design. I created Nulvyn Visuals to help people bring their ideas to life through art, technology, and innovative solutions.</p>
+
+    <p>I’ve been exploring different art forms for over seven years, but I connect with most is 3D design in Blender, my software of choice. Blender challenges me to look at every project from every perspective, and I bring that same mindset to problem solving in life and in my work.</p>
+
+    <p>At just 15 years old, I see my age not as a limitation but as a strength. I’m starting now, rather than waiting for permission later. Every project I take on is a chance to grow, share my skills, and help others achieve their vision.</p>
+
+    <p>I’d be honored to collaborate with you and create our dreams together.</p>
+
+    <p>- Kuba Kieca</p>
+    
+    <p>What does Nulvyn mean?</p>
+
+    <p>That’s a great question, and to be 100% honest I created the word and symbol during a time when I was struggling with myself and everything happening around me. The root ‘Null’ represents emptiness or starting from nothing, and Nulvyn became my way of transforming that feeling into something creative and meaningful. It’s a name that reminds me that even from nothing, you can build and create.</p>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Have a project in mind? Whether you need 3D product animations, motion graphics, or creative visuals, we’d love to collaborate.</p>
+
+    <form class="contact-form" action="https://formspree.io/f/mblajqna" method="POST">
+      <input type="text" name="company" placeholder="Company Name (optional)">
+      <input type="text" name="first" placeholder="First Name" required>
+      <input type="text" name="last" placeholder="Last Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <textarea name="message" rows="6" placeholder="Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© Nulvyn Visuals | Made by Kuba Kieca</p>
+    <div>
+      <a href="https://www.instagram.com/nulvyn_visuals/" target="_blank">Instagram</a> |
+      <a href="https://www.tiktok.com/@the_butter_guy" target="_blank">TikTok</a> |
+      <a href="mailto:kubakicontact@gmail.com">kubakicontact@gmail.com</a>
+    </div>
+  </footer>
+    </body>
+</html>
